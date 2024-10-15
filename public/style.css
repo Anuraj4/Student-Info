@@ -1,0 +1,46 @@
+/* Styling the form container */
+.container {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the form inputs */
+input.form-control, input.form-control-file {
+    border: 2px solid #434427;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-shadow: none;
+    box-shadow: 2px 2px 4px 1px;
+}
+
+/* Styling the labels */
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Styling the submit button */
+button.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Styling the form heading */
+h2.text-center {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #ff7300;
+}
